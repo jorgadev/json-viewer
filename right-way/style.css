@@ -1,0 +1,22 @@
+ul {
+  list-style: none;
+}
+.arrow {
+  cursor: pointer;
+  user-select: none;
+}
+.arrow:before {
+  content: "\25B6";
+  color: gray;
+  display: inline-block;
+  margin-right: 5px;
+}
+.arrow-down:before {
+  transform: rotate(90deg);
+}
+.nested {
+  display: none;
+}
+.active {
+  display: block;
+}
